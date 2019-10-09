@@ -1,28 +1,3 @@
-# builder-master-template
-
-## Project setup
-```
-npm install 
-```
-or
-```
-yarn install 
-```
-
-### Compiles and hot-reloads for development
-```
-npm run dev
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 ### 内容简介
 最近一直在做基于微信平台的H5项目，遇到很多生成海报的需求，所以记录一下我常用到的两种生成海报的方法：
 ```
@@ -79,4 +54,32 @@ textList:[
 3、使用background-image会使图片很模糊
 4、可以很好的结局文字布局的问题
 5、海报容器<img/>标签要注意设置display:block;，不让其出现白边,否则生成海报的时候会有一下的偏移，体验很不好
+```
+
+
+
+# builder-master-template
+
+## Project setup
+```
+npm install 
+```
+or
+```
+yarn install 
+```
+
+### Compiles and hot-reloads for development
+```
+npm run dev
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
 ```
