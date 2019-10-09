@@ -94,7 +94,7 @@ export default {
 	width:100%;
 	height:100%;
 	opacity: 0;
-	display:block;
+	display:block;  // 不让img出现白边,否则生成海报的时候会有一下的偏移，体验很不好
 }
 .html2canvas_poster_content{
 	position:absolute;
