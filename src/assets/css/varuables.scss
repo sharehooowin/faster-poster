@@ -1,0 +1,26 @@
+/*全局scss*/
+$baseColor:#f00;
+
+@mixin hasBgAutoHeight{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin hasBg{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin relativeCenter{
+  position:relative;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+@mixin absoluteCenter{
+  position:relative;
+  left:50%;
+  transform: translateX(-50%);
+}
