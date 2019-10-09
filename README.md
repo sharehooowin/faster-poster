@@ -29,8 +29,8 @@ npm run lint
 1、直接使用canvas书写布局，通过toDataURL将canvas内容转换为base64在<img/>标签中显示。
 2、通过html + css书写布局，通过html2canvas将网页内容先转换为canvas，然后再将canvas内容转换为base64在<img/>标签中显示。
 ```
-# 使用
-###一、使用canvas
+## 使用
+### 一、使用canvas
 ```
 1、引入common文件夹下封装好的的Poster组件
 2、四个参数designWidth、degignHeight、imgList、textList分别为设计稿的宽、高、图片布局、文字布局
@@ -58,14 +58,14 @@ textList:[
     }
 ],
 ```
-###二、使用html2canvas
+### 二、使用html2canvas
 ```
 1、使用html+css完成页面布局
 2、使用html2canvas插件将相应的dom元素转换为canvas内容
 3、将canvas内容通过toDataURL转换为base64在<img/>标签中显示
 ```
 
-# 问题说明
+## 问题说明
 一、使用canvas
 ```
 1、通过canvas实现页面布局会比较麻烦，可以使用封装好的Poster组件稍微提高一下效率
@@ -78,5 +78,5 @@ textList:[
 2、海报生成前显示html元素可以解决使用canvas出现的黑屏尴尬
 3、使用background-image会使图片很模糊
 4、可以很好的结局文字布局的问题
-
+5、海报容器<img/>标签要注意设置display:block;，不让其出现白边,否则生成海报的时候会有一下的偏移，体验很不好
 ```
